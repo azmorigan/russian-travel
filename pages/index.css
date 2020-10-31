@@ -1,91 +1,14 @@
 @import url(../vendor/normalize.css);
-
-@font-face {
-  font-family: 'Inter-Black';
-  font-style: normal;
-  font-weight: bold;
-  src: url("../fonts/Inter-Black.woff2") format("woff2"),
-       url("../fonts/Inter-Black.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter-Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/Inter-Regular.woff2") format("woff2"),
-       url("../fonts/Inter-Regular.woff") format("woff");
-}
+@import url(../vendor/fonts.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
 
-.header {
-  max-width: 1184px;
-  margin: 0 auto;
-  padding: 28px 0 56px;
-  display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
-}
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
 
-.header__logo {
-  width: 176px;
-  height: 52px;
-}
-
-.header__lang-link {
-  display: inline-block;
-  margin: 18px 0 6px;
-  padding: 0;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 28px;
-  text-decoration: none;
-  color: #fff;
-  text-align: right;
-}
-
-.header__lang-link:first-child {
-  text-decoration: underline;
-  margin-right: 18px;
-}
-
-.lead {
-  max-width: 984px;
-  margin: auto;
-} 
-
-.lead__title {
-  max-width: 720px;
-  margin: 0 auto 32px;
-  padding: 0;
-  color: #fff;
-  font-family: 'Inter-Black', sans-serif;
-  font-size: 96px;
-  line-height: 100px;
-  text-align: center;
-}
-
-.lead__subtitle {
-  max-width: 640px;
-  margin: 0 auto 64px;
-  padding: 0;
-  color: #fff;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-}
-
-.lead__image {
-  width: 984px;
-  height: 615px;
-}
-
-.lead__caption {
-  margin: 8px 0 0;
-  padding: 0;
-  font-size: 10px;
-  line-height: 1.4;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-}
