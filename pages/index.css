@@ -16,13 +16,10 @@
        url("../fonts/Inter-Regular.woff") format("woff");
 }
 
-.page {
-  background-color: #2A2C2F;
-  font-family: 'Inter-Regular', sans-serif;
-}
+@import url(../blocks/page/page.css);
 
 .header {
-  width: 92.5%;
+  max-width: 1184px;
   margin: 0 auto;
   padding-top: 28px;
   display: flex;
