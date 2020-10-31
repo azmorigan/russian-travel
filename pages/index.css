@@ -1,0 +1,53 @@
+@import url(../vendor/normalize.css);
+
+@font-face {
+  font-family: 'Inter-Black';
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Inter-Black.woff2") format("woff2"),
+       url("../fonts/Inter-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+       url("../fonts/Inter-Regular.woff") format("woff");
+}
+
+.page {
+  background-color: #2A2C2F;
+  font-family: 'Inter-Regular', sans-serif;
+}
+
+.header {
+  width: 92.5%;
+  margin: 0 auto;
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+}
+
+.header__lang-link {
+  display: inline-block;
+  margin: 18px 0 6px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 28px;
+  text-decoration: none;
+  color: #fff;
+  text-align: right;
+}
+
+.header__lang-link:first-child {
+  text-decoration: underline;
+  margin-right: 18px;
+}
