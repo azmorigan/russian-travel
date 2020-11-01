@@ -1,4 +1,11 @@
 .lead__image {
-  width: 984px;
-  height: 615px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .lead__image {
+    max-width: 100%;
+    height: auto;
+  }
 }

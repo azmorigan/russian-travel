@@ -6,11 +6,19 @@
   font-weight: normal;
   line-height: 28px;
   text-decoration: none;
-  color: #fff;
   text-align: right;
+  color: #fff;
 }
 
 .header__lang-link:first-child {
   text-decoration: underline;
   margin-right: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
