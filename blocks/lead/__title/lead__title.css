@@ -1,18 +1,26 @@
 .lead__title {
   max-width: 720px;
+  width: calc(720px / 100%);
   margin: 0 auto 32px;
   padding: 0;
   font-family: 'Inter-Black', sans-serif;
   font-size: 96px;
-  line-height: 100px;
+  line-height: calc(100 / 96);
   text-align: center;
+}
+
+@media screen and (min-width: 1024px) and (max-width:1279px) {
+  .lead {
+    width: calc(100% - (208px / 100%));
+    /* width: calc(720px / 100%); */
+  }
 }
 
 @media (max-width: 767px) {
   .lead__title {
-    max-width: 288px;
+    width: 90%;
     margin-bottom: 16px;
-    font-size: 40px;
-    line-height: 44px;
+    font-size: calc(100vw / 8);
+    line-height: 1.1;
   }
 }

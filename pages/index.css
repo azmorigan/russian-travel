@@ -3,6 +3,7 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo-link/header__logo-link.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
@@ -20,5 +21,17 @@
 @import url(../blocks/intro/__number/intro__number.css);
 
 
+.photo-grid {
+  margin: 0 auto;
+  max-width: 1184px;
+  width: 92.5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+}
 
+.photo-grid__item {
+  width: 100%;
+}
 
