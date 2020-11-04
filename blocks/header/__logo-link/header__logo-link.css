@@ -1,7 +1,11 @@
 .header__logo-link {
   height: 52px;
+  transition: opacity .4s linear;
 }
 
+.header__logo-link:hover {
+  opacity: 0.8;
+}
 @media screen and (max-width: 767px) {
   .header__logo-link {
     max-height: 42px;

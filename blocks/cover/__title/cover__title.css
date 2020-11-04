@@ -7,7 +7,8 @@
   line-height: calc(76 / 72);
   text-align: center;
   position: relative;
-  z-index: 1;
+  z-index: 3;
+  text-decoration: none;
 }
 
 @media (max-width: 1279px) {
