@@ -1,8 +1,7 @@
 .cover__link {
-  margin: 0;
   padding: 0;
   display: block;
-  margin: auto;
+  margin: 0 auto;
   text-decoration: none;
   background-image: url('../../../image/cover-trains.jpg');
   background-size: cover;
