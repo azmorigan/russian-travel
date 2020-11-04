@@ -1,0 +1,12 @@
+.place__paragraph {
+  align-self: start;
+  justify-content: start;
+}
+
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    margin: auto;
+    width: 90%;
+  }
+}

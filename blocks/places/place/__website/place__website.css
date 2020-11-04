@@ -1,0 +1,19 @@
+.place__website {
+  align-self: end;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    margin: 0 auto;
+    width: 90%;
+    order: 1;
+    align-self: start;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .place__website {
+    display: none;
+  }
+}
