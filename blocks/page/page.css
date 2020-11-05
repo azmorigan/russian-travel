@@ -1,6 +1,7 @@
 .page {
   background-color: #2A2C2F;
-  font-family: 'Inter-Regular', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   color: #fff;
   margin: auto;
   -webkit-font-smoothing: antialiased;

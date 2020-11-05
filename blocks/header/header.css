@@ -5,6 +5,7 @@
   padding: 28px 0 56px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   box-sizing: border-box;
 }
 
@@ -18,9 +19,8 @@
 @media screen and (max-width: 1023px) {
   .header {
     width: calc(100% - 48px);
-  } 
+  }
 }
-
 
 @media screen and (max-width: 767px) {
   .header {
