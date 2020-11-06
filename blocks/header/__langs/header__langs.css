@@ -1,12 +1,12 @@
 .header__langs {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 78px;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 6px 0;
 }
 
 @media screen and (max-width: 767px) {
   .header__langs {
-    width: 62px;
+    padding-bottom: 8px;
   }
 }

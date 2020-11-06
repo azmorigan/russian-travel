@@ -1,0 +1,8 @@
+.header__langs-item {
+  margin: 0 18px 0 0;
+  padding: 0;
+}
+
+.header__langs-item:last-child {
+  margin-right: 0;
+}

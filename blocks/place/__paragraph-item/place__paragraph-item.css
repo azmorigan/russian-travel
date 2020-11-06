@@ -11,6 +11,6 @@
 
 @media screen and (max-width: 1023px) {
   .place__paragraph-item {
-    font-size: calc((100vw - 320px) / (1024 - 320) * (18 - 16) + 16px);
+    font-size: 16px;
   }
 }
