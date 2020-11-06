@@ -3,6 +3,9 @@
   padding-bottom: 24px;
   max-width: 1184px;
   width: 92.5%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
 @media screen and (max-width: 1279px) {
@@ -20,5 +23,6 @@
 @media screen and (max-width: 767px) {
   .footer {
     width: 90%;
+    flex-direction: column;
   }
 }
